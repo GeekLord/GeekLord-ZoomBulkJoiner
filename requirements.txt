@@ -1,0 +1,3 @@
+selenium           # ? Required for interacting with the browser
+questionary        # ? Required for command line interface
+rich               # ? Required for command line interface
