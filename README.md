@@ -6,9 +6,9 @@ Multi-Participant Zoom Meeting Script
 
 
 
-ZoomBulkJoiner is a Python and Selenium-based script that enables users to join a Zoom meeting with multiple instances, using different names. Whether you have a Zoom meeting link or an ID with a passcode, this script allows you to create a virtual army of participants, giving the illusion of a larger attendance. Perfect for pranks, simulations, or any situation where you want to fake participants. Embrace the power of ZoomJoiner and create the ultimate virtual gathering!
+ZoomBulkJoiner is a Python and Selenium-based script that helps you join a Zoom meeting with multiple instances, using different names. Whether you have a Zoom meeting link or an ID with a passcode, this script automates the join flow for repeated testing or simulations.
 
-- FOR **EDUCATIONAL PURPOSES ONLY** (Please use it at your own risk)
+- FOR **EDUCATIONAL PURPOSES ONLY**. Please use it at your own risk and follow Zoom's terms of service.
 
 ## **Requirements:**
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### Chrome
 
-Have Chrome browser installed as the program is based on the chrome drivers.
+Have Chrome browser installed, because the program relies on Chrome drivers.
 It can be installed using https://www.google.com/chrome/
 
 ## **How It Works**
@@ -73,10 +73,10 @@ python main.py --mode idpass --id 84981941628 --password 4321
 python main.py --help
 ```
 
-## Whats Different?
-- Fixed the Element not locating Problem
-- Waiting till webpage Loading Added
-- Confirmation Alert Dismissing
+## What's Different?
+- Fixed the element locating problem
+- Added waiting for page load
+- Dismisses confirmation alerts
 - Added CLI argument support for non-interactive usage
 
 ## TO-DO
@@ -88,5 +88,5 @@ python main.py --help
 https://github.com/AverageBlank/ZoomBomber
 
 ```
-Note : Program may contain Bugs, and only tested the joining from link option. please proceed with care and modify the code to suite your need.
+Note: The program may contain bugs, and only the link-join option has been tested. Please proceed with care and modify the code to suit your needs.
 ```
